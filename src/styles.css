@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+.datestable {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  color: #000000;
+  max-width: 700px;
+}
+
+td {
+  border: none;
+  text-align: left;
+  padding: 8px;
+  /* height: 84px; */
+  padding: 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f4f5f8;
+}
+.eventDate {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.eventTime {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.eventRegisterBtn {
+  padding: 6px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  background: #393a3d;
+}
+.eventRegisterBtnActive {
+  opacity: 1;
+}
+.eventRegisterBtnInActive {
+  opacity: 0.2;
+}
+.eventRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
